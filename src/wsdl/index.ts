@@ -971,7 +971,7 @@ export class WSDL {
 
           continue;
         } else {
-          attr += ' ' + attrKey + '="' + xmlEscape(attrObj[attrKey]) + '"';
+          attr += ' ' + attrObj[attrKey].name + '="' + attrObj[attrKey].value + '"';
         }
       }
     }
