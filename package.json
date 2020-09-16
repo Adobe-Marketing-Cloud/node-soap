@@ -1,5 +1,5 @@
 {
-  "name": "@harps/soap",
+  "name": "@harps-ch/node-soap",
   "version": "1.0.1",
   "description": "A minimal node SOAP client",
   "engines": {
